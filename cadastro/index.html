@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+        }
+        form input{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="">
+        <input type="text" placeholder="Marcelo" required>
+        <input type="email" placeholder="marcelo@gmail.com" required>
+        <input type="password" placeholder="***********" required>
+        <input type="date" name="" id="" required>
+        <div>
+            <input type="radio" name="pref" value="homem"> Homem <br>
+            <input type="radio" name="pref" value="mulher"> Mulher <br>
+        </div>
+        <label for="input_estados"></label>
+        <input placeholder="Estado" list="estados">
+        <datalist id="estados">
+            <option value="Pernambuco"></option>
+            <option value="São Paulo"></option>
+            <option value="Acre"></option>
+            <option value="Alagoas"></option>
+            <option value="Amazonas"></option>
+            <option value="Bahia"></option>
+        </datalist>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
