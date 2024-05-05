@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', sans-serif;
+}
+
+body {
+    background-color: #0c0f11;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    overflow-wrap: break-word;
+}
+
+.centralized {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centralized h1 {
+    text-align: center;
+    color: #b2b8c4;
+    margin-top: 24px;
+}
+
+.centralized .game {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.centralized .game .results p {
+    color: #b2b8c4;
+}
+
+.centralized .game .results .show-results {
+    display: flex;
+    gap: 10px;
+    color: #b2b8c4;
+    margin-top: 4px;
+}

@@ -1,0 +1,82 @@
+.terminal .terminal-controler .info {
+    padding: 15px 5px;
+}
+
+.terminal .terminal-controler .info p {
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: #b3b9c5;
+}
+
+.terminal .terminal-controler .info .image-text {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.terminal .terminal-controler .info .image-text .image img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.terminal .terminal-controler .info .image-text .text .text-header{
+    border-radius: 50%;
+    margin: 4px 0px;
+    display: flex;
+    gap: 8px;
+}
+
+.terminal .terminal-controler .info .image-text .text .text-header strong {
+    text-decoration: underline;
+    color: #76d4d6;
+    font-size: 16px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.terminal .terminal-controler .info .image-text .text .text-header span {
+    color: #6c6c6d;
+    font-size: 15px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.terminal .terminal-controler .info .image-text .text .caracters em {
+    color: #777c85;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+}
+
+.terminal .terminal-controler .info .image-text .text .text-about p{
+    margin: 3px 0 0;
+    font-family: 'Fira Code', monospace;
+    color: #b3b9c5;
+    font-size: 13px;
+}
+
+.terminal .terminal-controler .info .image-text .text .text-about p .highlighted {
+    color: #92d192;
+}
+
+.terminal .terminal-controler .info .skills {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.terminal .terminal-controler .info .skills::before {
+    background-color: #777c85;
+    border-radius: 1px;
+    content: "";
+    margin: 0 4px;
+    height: 1px;
+    width: 100%;
+}
+
+.terminal .terminal-controler .info .skills i {
+    color: #777c85;
+    font-size: 1.7em;
+}

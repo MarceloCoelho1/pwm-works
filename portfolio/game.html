@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls and cows game</title>
+    <link rel="stylesheet" href="./css/game/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="centralized">
+        <h1>Bulls and cows</h1>
+        <div class="game">
+            <div class="results">
+                <p>Results</p>
+                <div class="show-results">
+                    <span class="iterations">0</span>
+                    <span class="guess">3214</span>
+                    <div class="bulls">
+                        <span>bulls</span>
+                        <span>0</span>
+                    </div>
+                    <div class="cows">
+                        <span>cows</span>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <input class="guess-input" type="text" maxlength="4">
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/game.js"></script>
+</body>
+</html>

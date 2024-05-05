@@ -1,0 +1,40 @@
+.links ul{
+    list-style: none;
+}
+
+.links ul li {
+    margin: 12px 0 12px 32px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.links ul li i {
+    margin-right: 8px;
+    font-size: 14px;
+    color: #777c85;
+    width: 17.5px;
+    height: 14px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.links ul li strong {
+    margin-right: 8px;
+}
+
+.links ul li strong a {
+    text-decoration: none;
+    color: #76d4d6;
+    font-size: 13px;
+}
+
+.links ul li strong a:hover {
+    text-decoration: underline;
+}
+
+.links ul li em {
+    font-family: 'Fira Code', monospace;
+    color: #777c85;
+    font-size: 13px;
+    font-style: normal;
+}

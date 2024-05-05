@@ -42,17 +42,3 @@ header .hero-title .typewriter {
     }
 }
 
-header nav a {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #a8adb2;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: .1s;
-    margin-left: 12px;
-}
-
-header nav a:hover {
-    color: #fff;
-}
-
-

@@ -18,4 +18,9 @@
 .terminal .terminal-controler .help li i {
     margin-right: 8px;
     font-size: 14px;
+    color: #777c85;
+    width: 17.5px;
+    height: 14px;
+    display: inline-flex;
+    justify-content: center;
 }
